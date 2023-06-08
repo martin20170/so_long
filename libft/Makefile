@@ -30,7 +30,7 @@ clean:
 		make clean -C essentials
 		make clean -C ft_printf
 		make clean -C get_next_line
-
+				
 fclean:	clean
 		rm -f ${NAME}
 
