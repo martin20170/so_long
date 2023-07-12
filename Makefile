@@ -12,7 +12,7 @@ ARRC = ar rcs
 
 ${NAME}:	${SRCS}
 				make all -C ./libft
-				${CC} ${CFLAGS} -I./minilibx-linux -L./minilibx-linux -o ${NAME} ${SRCS} libft/libft.a -lmlx -lXext -lX11 -lm
+				${CC} ${CFLAGS} -I ./minilibx-linux -L ./minilibx-linux -o ${NAME} ${SRCS} libft/libft.a -lmlx -lXext -lX11 -lm
 
 
 
